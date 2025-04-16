@@ -1,4 +1,4 @@
-# API Test Automation Project  -  [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=furkanyy_payrails-assignment&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=furkanyy_payrails-assignment)
+# API Test Automation Project  [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=furkanyy_payrails-assignment&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=furkanyy_payrails-assignment)
 
 This project is created for a QA position assignment. It contains manual API test cases and automated API test cases using Playwright for the Alpha Vantage API.
 
