@@ -25,7 +25,7 @@ https://www.alphavantage.co/documentation/#company-overview
 ### API Endpoint
 ```
 https://www.alphavantage.co/query?function=OVERVIEW&symbol=IBM&apikey=your_api_key
-
+```
 
 ## Automated Test Cases
 
