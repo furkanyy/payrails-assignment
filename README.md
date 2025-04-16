@@ -49,6 +49,18 @@ npm run report
 npm run test:debug
 ```
 
+## Test Report
+
+After running the tests, view the HTML report:
+```bash
+npm run report
+```
+
+The report (`playwright-report/index.html`) opens in your browser and shows:
+- Test results summary
+- Failed test details with API responses
+- Test execution time
+
 ## Test Cases
 
 ### Manual Test Cases
