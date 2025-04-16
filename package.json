@@ -1,0 +1,15 @@
+{
+  "name": "api-test-automation",
+  "version": "1.0.0",
+  "description": "API Testing with Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api/company-overview/",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.41.2",
+    "@types/node": "^20.11.16"
+  }
+}
