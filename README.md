@@ -79,22 +79,22 @@ The report (`playwright-report/index.html`) opens in your browser and shows:
 
 ### Automated Test Cases
 
-The following test cases have been automated based on their reliability and importance in validating the API's behavior:
+The following test cases have been chosen to be automated based on their reliability and importance in validating the API's behavior:
 
-**TC_01: Valid Company Overview Request**
+**01: Valid Company Overview Request**
 - Verifies the main functionality of the API with valid inputs
 - Ensures the endpoint is working as expected
 
-**TC_02: Invalid API Key Handling**
+**02: Invalid API Key Handling**
 - Ensures proper error handling for authentication issues
 - Validates error message structure and content
 
-**TC_05: Field Validation**
+**05: Field Validation**
 - Verifies all 52 expected fields are present
 - Ensures no null or undefined values
 - Validates response completeness and data integrity
 
-**TC_06: Data Type Validation**
+**06: Data Type Validation**
 - Ensures correct data types for all fields
 - Validates string, numeric, and date format fields
 - Protects against data format issues
