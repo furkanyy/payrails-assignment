@@ -4,7 +4,7 @@ import { APIHelper } from '../../helpers/api-helpers';
 test.describe('Company Overview', () => {
   let apiHelper: APIHelper;
   const BASE_URL = 'https://www.alphavantage.co';
-  const API_KEY = process.env.ALPHA_VANTAGE_API_KEY || 'XXI0RCN02TDC40PX';
+  const API_KEY = process.env.ALPHA_VANTAGE_API_KEY ?? 'XXI0RCN02TDC40PX';
 
   test.beforeEach(async ({ request }) => {
     apiHelper = new APIHelper(request);
