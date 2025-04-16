@@ -2,7 +2,9 @@
 
 This project is created for a QA position assignment. It contains manual API test cases and automated API test cases using Playwright for the Alpha Vantage API.
 
-For details about the tested endpoint, visit the [Alpha Vantage Documentation](https://www.alphavantage.co/documentation/#company-overview).
+Company Overview endpoint is selected. For details about the endpoint, click -> [Alpha Vantage Documentation](https://www.alphavantage.co/documentation/#company-overview).
+
+**Endpoint:** `https://www.alphavantage.co/query?function=OVERVIEW&symbol=IBM&apikey=your_api_key`
 
 ## Project Structure
 ```
@@ -91,6 +93,4 @@ The following test cases have been automated based on their reliability and impo
 - Some tests may fail if rate limit is exceeded
 - Consider using test retries for rate-limited scenarios
 
-## API Details
 
-**Endpoint:** `https://www.alphavantage.co/query?function=OVERVIEW&symbol=IBM&apikey=your_api_key`
