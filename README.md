@@ -56,7 +56,7 @@ The report (`playwright-report/index.html`) opens in your browser and shows:
 
 | ID | Scenario | Test Data | Expected Result |
 |----|----------|-----------|-----------------|
-| 01 | Valid company overview request | `symbol=IBM`, valid API key | 200 OK. Response returns IBM related values. |
+| 01 | Valid company overview request | `symbol=IBM`, valid API key | 200 OK. Response returns symbol value as IBM rather than error message. |
 | 02 | Request with invalid API key | `symbol=IBM`, no API key | 200 OK. Response contains clear error message indicating invalid or missing API key. |
 | 03 | Request with missing symbol parameter | No symbol param, valid API key | 200 OK. Response contains error indicating invalid API call. |
 | 04 | Request with invalid symbol | `symbol=INVALIDXYZ`, valid API key | 200 OK. Response is empty. |
