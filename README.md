@@ -76,6 +76,8 @@ The report (`playwright-report/index.html`) opens in your browser and shows:
 | 07 | Validate logical correctness of ratios | Valid inputs (`symbol=IBM`) | 200 OK. Financial ratios (PERatio, EPS, DividendYield) are logically valid and non-negative unless justified otherwise. |
 | 08 | Exceed daily API request rate limit | More than 25 requests in a single day | 200 OK. API returns message about rate limit exceeded and premium plan options. |
 | 09 | Multiple simultaneous requests | Concurrent valid requests | 200 OK. All requests succeed without errors or performance degradation. |
+| 10 | Excessively long symbol value  | Input value of 255 characters (`symbol=...`), valid API key | 200 OK. Response is empty. |
+| 11 | SQL Injection test | Malicious input (`symbol=IBM' OR '1'='1 or symbol=1;DROP TABLE users--`), valid API key | 200 OK. Response is empty. |
 
 ### Automated Test Cases
 
