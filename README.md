@@ -101,10 +101,8 @@ The following test cases have been chosen to be automated based on their reliabi
 - Validates string, numeric, and date format fields
 - Protects against data format issues
 
-## Notes
+## Note
 
-- Free API tier is limited to 25 requests per day
-- Some tests may fail if rate limit is exceeded
-- Consider using test retries for rate-limited scenarios
+- Free API tier is limited to 25 requests per day. Consider using test retries for rate-limited scenarios.
 
 
