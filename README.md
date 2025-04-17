@@ -41,9 +41,6 @@ ALPHA_VANTAGE_API_KEY=your_api_key_here
 ```bash
 # Run all API tests
 npm run test:api
-
-# View test report
-npm run report
 ```
 
 ## Test Report
