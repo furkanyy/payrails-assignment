@@ -17,10 +17,17 @@ test.describe('Company Overview', () => {
    * 1. Send request with valid symbol (IBM) and API key
    * 2. Verify response status is 200 OK
    */
-  test('01: should get company overview successfully with valid symbol', async () => {
+  test('01: should get company overview successfully with valid symbol value', async () => {
     const response = await apiHelper.get(`${BASE_URL}/query?function=OVERVIEW&symbol=IBM&apikey=${API_KEY}`);
+    
     expect(response.ok()).toBeTruthy();
     expect(response.status()).toBe(200);
+  
+    const body = await response.json();
+  
+    // Assert the symbol is IBM
+    expect(body).toHaveProperty('Symbol');
+    expect(body.Symbol).toBe('IBM');
   });
 
   /**
