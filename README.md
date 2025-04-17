@@ -26,15 +26,10 @@ Company Overview endpoint is selected. For details about the endpoint, click -> 
 npm install
 ```
 
-2. Set up environment variables:
-
-You can create your free API Key from the link below:
+2. Create your free API Key from the link below:
 
 https://www.alphavantage.co/support/#api-key
 
-```
-ALPHA_VANTAGE_API_KEY=your_api_key_here
-```
 
 ## Running Tests
 
