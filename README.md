@@ -76,16 +76,16 @@ The following test cases have been chosen to be automated based on their reliabi
 - Verifies the main functionality of the API with valid inputs
 - Ensures the endpoint is working as expected
 
-**02: Invalid API Key Handling**
+**02: Request with Invalid API Key**
 - Ensures proper error handling for authentication issues
 - Validates error message structure and content
 
-**05: Field Validation**
+**05: Verify All Fields Exist and are Not Null**
 - Verifies all 52 expected fields are present
 - Ensures no null or undefined values
 - Validates response completeness and data integrity
 
-**06: Data Type Validation**
+**06: Check Each Data has Correct Data Type**
 - Ensures correct data types for all fields
 - Validates string, numeric, and date format fields
 - Protects against data format issues
