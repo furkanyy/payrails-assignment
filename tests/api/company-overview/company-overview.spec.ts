@@ -53,6 +53,7 @@ test.describe('Company Overview', () => {
    * Steps:
    * 1. Send request with valid parameters
    * 2. Check presence of all 52 expected fields
+   * 3. Check if any field is null or undefined
    */
   test('05: Response includes all expected fields and no null/undefined values', async () => {
     const response = await apiHelper.get(`${BASE_URL}/query?function=OVERVIEW&symbol=IBM&apikey=${API_KEY}`);
