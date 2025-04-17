@@ -44,9 +44,6 @@ npm run test:api
 
 # View test report
 npm run report
-
-# Debug tests
-npm run test:debug
 ```
 
 ## Test Report
